@@ -1,6 +1,11 @@
-# Bedrock Portal Manager
-
-Utility project to assist in the management of a single instance of [Bedrock Portal](https://github.com/lucienhh/bedrock-portal)
+<h1 align="center">Bedrock Portal Manager</h1>
+<p align="center">
+<img src="https://github.com/DJStompZone/bedrock-portal-mgr/assets/85457381/e93fddf9-9cf0-478e-856d-a7fa50ddf5e6" width="60%" align="center">
+</p>
+<p align="center">
+Utility project to assist in the management of a single instance of <a href="https://github.com/lucienhh/bedrock-portal">Bedrock Portal</a>.
+</p>
+<hr>
 
 ## Features
 - Highly configurable
