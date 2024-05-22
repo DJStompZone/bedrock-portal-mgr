@@ -1,0 +1,21 @@
+{
+  "name": "bedrock-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bedrock-portal": "^0.6.1",
+    "pm2": "^5.3.1",
+    "prismarine-auth": "^2.4.2",
+    "tx2": "^1.0.5"
+  },
+  "devDependencies": {
+    "debug": "^4.3.4"
+  }
+}
