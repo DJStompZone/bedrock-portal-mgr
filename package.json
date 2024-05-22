@@ -1,18 +1,18 @@
 {
-  "name": "bedrock-portal",
+  "name": "bedrock-portal-mgr",
   "version": "1.0.0",
-  "description": "",
+  "description": "Handles an instance of bedrock-portal (https://github.com/LucienHH/bedrock-portal)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2 start index.js --name \"portal\" --log \"./logs/portal.log\" --cron \"*/90 * * * *\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["minecraft", "bedrock", "realms", "server", "multiplayer"],
+  "author": "DJ Stomp <dj@deepai.org>",
   "license": "ISC",
   "dependencies": {
     "bedrock-portal": "^0.6.1",
-    "pm2": "^5.3.1",
     "prismarine-auth": "^2.4.2",
+    "pm2": "^5.3.1",
     "tx2": "^1.0.5"
   },
   "devDependencies": {
