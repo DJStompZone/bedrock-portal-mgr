@@ -4,7 +4,7 @@
   "description": "Handles an instance of bedrock-portal (https://github.com/LucienHH/bedrock-portal)",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --name \"portal\" --log \"./logs/portal.log\" --cron \"*/90 * * * *\""
+    "start": "pm2 start index.js --name \"portal\" --log \"./logs/portal.log\" --cron \"0 * * * *\""
   },
   "keywords": ["minecraft", "bedrock", "realms", "server", "multiplayer"],
   "author": "DJ Stomp <dj@deepai.org>",
