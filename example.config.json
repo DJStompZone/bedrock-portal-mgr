@@ -1,0 +1,35 @@
+{
+  "appName": "yourAppName",
+  "ip": "0.69.42.0",
+  "port": 42069,
+  "world": {
+    "hostName": "§4Your§6Server§2§lName§r",
+    "name": "Edit config.json :)",
+    "memberCount": 1,
+    "maxMemberCount": 30
+  },
+  "joinability": "FriendsOfFriends",
+  "modules": {
+    "AutoFriendAdd": {
+      "inviteOnAdd": true,
+      "checkInterval": 30000,
+      "addInterval": 2000,
+      "removeInterval": 2000
+    },
+    "InviteOnMessage": {
+      "command": "invite",
+      "checkInterval": 30000
+    }
+  },
+  "subscribeToEvents": {
+    "rtaEvent": "RTA Event",
+    "sessionCreated": "Session Created",
+    "sessionUpdated": "Session Updated",
+    "playerJoin": "Player Join",
+    "playerLeave": "Player Leave",
+    "friendAdded": "Friend Added",
+    "friendRemoved": "Friend Removed",
+    "messageRecieved": "Message Received",
+    "messageReceived": "Message Received"
+  }
+}
